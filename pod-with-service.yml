@@ -7,7 +7,7 @@ metadata:
 spec:
    containers:
    - name: autograder-container
-     image: mahshaban95/autograder:2.0
+     image: mahshaban95/autograder-jenkins:latest
      ports:
      - containerPort: 5000
 ---
